@@ -70,3 +70,11 @@ darkModeButton.addEventListener("click", function switchDarkMode() {
     localStorage.setItem("dark", "false");
   }
 });
+
+if (localStorage.getItem("phoneImg") === "client") {
+  document.getElementById("phoneImg").src = "images/phoneClient.png";
+  localStorage.setItem("phoneImg", "liv");
+} else {
+  document.getElementById("phoneImg").src = "images/phoneLiv.png";
+  localStorage.setItem("phoneImg", "client");
+}
