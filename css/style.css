@@ -47,7 +47,7 @@ section {
 
 .btn {
   display: inline-block;
-  margin-top: 1rem;
+  margin: 1rem;
   padding: 0.8rem 3rem;
   border-radius: 5rem;
   background: var(--gradient);
@@ -74,11 +74,11 @@ section {
 }
 
 header {
-  position: relative;
+  position: absolute;
   top: 0;
   left: 0;
   width: 100%;
-  background: linear-gradient(rgba(255, 255, 255, 1), rgba(255, 255, 255, 0.9));
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(255, 255, 255, 0));
   /* box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1); */
   padding: 2rem 9%;
   display: flex;
@@ -87,7 +87,7 @@ header {
   z-index: 1000;
 }
 .heading-dark {
-  background: linear-gradient(rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.9));
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0));
 }
 
 header .logo {
