@@ -1,0 +1,10 @@
+{
+    "platform": "android",
+    "bundleId": "com.deadlinestudio.eatex",
+    "version": "0.7",
+    "releasedAt": null,
+    "notes": "",
+    "url": "https://play.google.com/store/apps/details?id=com.deadlinestudio.eatex",
+    "lastChecked": "2023-02-23T17:12:52.585Z",
+    "warning": "Deprecated - please update react-native-version-check to the latest version."
+}
